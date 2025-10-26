@@ -1,0 +1,45 @@
+# Ignore Python virtual environments
+venv/
+.venv/
+venv_retriever
+
+src/detection_methods/results
+src/detection_methods/kilt_retriever/knowledge_source
+# Ignore build artifacts
+build/
+__pycache__/
+*.o
+*.so
+*.pyc
+*.pyo
+*.pyd
+src/detection_methods/results_own_methods/
+# Ignore log files
+*.log
+src/detection_methods/GNN_MODELS/
+# Ignore Git metadata
+.git/
+
+# Ignore models
+*.gguf
+*.json
+# Ignore data files
+*.txt
+
+# Ignore figures
+*.png
+
+# Ignore trained models
+feature_abstraction_models/
+trained_models/
+llama_cpp_models/
+# Ignore generated data
+generated_data_old
+generated_data
+generated_data_2
+
+cached_embeddings
+src/detection_methods/BESPOKE_RESULTS/
+src/white_box_benchmark/llama.cpp/
+results
+src/detection_methods/neural_models/evaluate_gnn/figs_color/

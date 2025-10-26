@@ -1,0 +1,30 @@
+# Code quality
+# ------------------------------------------------------------------------------
+flake8==7.1.1  # https://github.com/PyCQA/flake8
+flake8-isort==6.1.1  # https://github.com/gforcada/flake8-isort
+coverage==7.6.12  # https://github.com/nedbat/coveragepy
+black==24.8.0  # https://github.com/psf/black
+pre-commit==4.1.0  # https://github.com/pre-commit/pre-commit
+flake8-print==5.0.0 # https://github.com/jbkahn/flake8-print
+
+
+# ------------------------------------------------------------------------------
+hmmlearn>=0.3.3
+scikit-learn>=1.7.2
+pandas >= 2.3.1
+joblib >= 1.5.1
+
+transformers>=4.56.1
+torch>=2.8.0
+torch-geometric>=2.6.1
+numpy>=2.2.6
+tqdm>=4.67.1
+faiss-cpu>=1.12.0
+lettucedetect>=0.1.8
+tuned-lens>=0.2.0
+matplotlib>= 3.10.6
+xlsxwriter>=3.2.9
+openpyxl>=3.1.5
+wordcloud>=1.9.4
+minicheck @ git+https://github.com/Liyan06/MiniCheck.git@main
+vllm==0.10.2
